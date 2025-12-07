@@ -138,7 +138,7 @@ jobs:
         if: always()
         id: set_url
         run: |
-          REPORT_URL="https://narayanan-vk.github.io/refresh-playwright-java/${{ github.run_number }}/"
+          REPORT_URL="https://dragontailonfire.github.io/refresh-playwright-java/${{ github.run_number }}/"
           echo "report_url=$REPORT_URL" >> $GITHUB_OUTPUT
           echo "::notice title=Test Report Available::View the full test report at $REPORT_URL"
           echo "## 📊 Test Report" >> $GITHUB_STEP_SUMMARY
